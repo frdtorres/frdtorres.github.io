@@ -1,3 +1,3 @@
-function load(){
-    $( "#fred" ).load( "datos.html" );
+function load(where){
+    $( "#fred" ).load( where+".html" );
 }
